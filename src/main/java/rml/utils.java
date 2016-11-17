@@ -30,6 +30,7 @@ public class utils {
 	 * @param header		头部信息
 	 * @param cahset		设置解码方式
 	 * @return			返回接收的文本的字符串
+	 * 
 	 */
 	public String getUrlToNewpath(String url,Map<String, String> header,String method,Map<String,String> entrys,String cahset){
 		StringBuffer path = new StringBuffer(url);
